@@ -144,7 +144,10 @@ button:disabled {
   }
   
   .container-imagens img {
-    width: 100%; /* Ajuste o tamanho conforme necessário */
-    height: 100%;
+    max-width: 90%; /* Ajuste o valor conforme necessário */
+    max-height: 90%; /* Ajuste o valor conforme necessário */
+    object-fit: cover;
+    /* Opção 3: Ajustar object-fit */
+    /* object-fit: contain; /* Ou cover */
 }
 
